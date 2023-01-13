@@ -8,10 +8,12 @@
  * 3. Traitez tous les paramètres pour vous prémunir des petits malins.
  * 4. Faites une boucle pour afficher autant de fois Hello World 10 fois en utilisant 'iteration' dans la boucle.
  */
-
 // TODO Votre code ici.
+echo "<a href='exo1.php?iteration=10'>Hello</a> <br><br><br>";
 
-
+for ($i = 0; $i < 10; $i++) {
+    echo "<a href='exo1.php?iteration=$i'>Hello1</a><br>";
+}
 /**
  * Exo 2
  * ------
